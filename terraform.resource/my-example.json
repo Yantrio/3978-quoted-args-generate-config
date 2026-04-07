@@ -1,0 +1,26 @@
+{
+  "resource_type": "tfcoremock_dotted",
+  "values": {
+    "id": {
+      "string": "my-example"
+    },
+    "tags": {
+      "map": {
+        "normal_key": {
+          "object": {
+            "value": {
+              "string": "works fine"
+            }
+          }
+        },
+        "dotted.key": {
+          "object": {
+            "value": {
+              "string": "should be quoted"
+            }
+          }
+        }
+      }
+    }
+  }
+}

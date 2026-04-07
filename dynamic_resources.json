@@ -1,0 +1,19 @@
+{
+  "tfcoremock_dotted": {
+    "attributes": {
+      "tags": {
+        "type": "map",
+        "optional": true,
+        "map": {
+          "type": "object",
+          "object": {
+            "value": {
+              "type": "string",
+              "optional": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

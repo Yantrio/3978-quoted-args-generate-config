@@ -15,7 +15,7 @@ tofu init
 2. Run plan with config generation:
 
 ```sh
-tofu plan -generate-config-out=generated.tf
+TFCOREMOCK_DYNAMIC_RESOURCES_FILE=dynamic_resources.json tofu plan -generate-config-out=generated.tf
 ```
 
 3. Observe the generated `generated.tf` — the `dotted.key` map key is unquoted:
